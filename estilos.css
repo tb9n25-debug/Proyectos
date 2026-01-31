@@ -1,0 +1,121 @@
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+}
+
+/* ===== ETIQUETAS ===== */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f6f3;
+  color: #271118;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+  padding: 24px;
+  text-align: center;
+  background-color: #7d0951;
+  color: #ffffff;
+}
+
+.subtitle {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* ===== TITULO ===== */
+.section-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ===== CARD ===== */
+.project-card {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 30px rgba(0,0,0,0.18);
+}
+
+/* ===== IMAGEN ===== */
+.img-wrapper {
+  height: 200px;
+  overflow: hidden;
+}
+
+.project-img {
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-img {
+  transform: scale(1.08);
+}
+
+#img-proyecto-1 { object-position: center top; }
+#img-proyecto-2 { object-position: center; }
+#img-proyecto-3 { object-position: center bottom; }
+
+/* ===== TEXTO ===== */
+.project-desc {
+  font-size: 14px;
+  color: #500745;
+  text-align: justify;
+}
+
+.tech-list {
+  padding-left: 18px;
+}
+
+/* ===== BOTONES ===== */
+.btn-primary {
+  background-color: #f372a8;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #e5e7eb;
+  color: #111827;
+  border: none;
+}
+
+.btn-success {
+  background-color: #ffffff;
+  color: #7d0951;
+  border: 2px solid #ffffff;
+}
+
+.btn-success:hover {
+  background-color: #5c063c;
+  color: #ffffff;
+  border-color: #5c063c;
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #3b0330;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+
+
+
